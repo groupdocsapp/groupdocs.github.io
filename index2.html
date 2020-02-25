@@ -420,19 +420,7 @@
 		</div>
 	</div>
 	<div id='DynabicMenuFooter'></div>
-	<script type="text/javascript">
-		jQuery.noConflict();
-
-		jQuery(document).ready(function () {
-			$('.siteTop_ContentContainer').find("button").click(function () {
-				$("#navbar-button").toggleClass("topbutton");
-			});
-			jQuery('#userControls').load('http://www.groupdocs.com/Header/logininfo.aspx?ShowBlc=false');
-			$("#userControls img").each(function () {
-				$(this).attr('src', "img/transparent.png");
-			})
-		});
-	</script>
+	
 	<script>
 		LoadMenu("GroupDocs");
 	</script>
